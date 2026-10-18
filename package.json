@@ -1,5 +1,5 @@
 {
-  "name": "@sagelabs/passgen",
+  "name": "@retiform/passgen",
   "version": "0.3.1",
   "description": "Stateless deterministic passphrase generator",
   "main": "passgen.js",
@@ -48,12 +48,12 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/sagelabs-dev/passgen.git"
+    "url": "git+https://github.com/retiform-labs/passgen.git"
   },
   "bugs": {
-    "url": "https://github.com/sagelabs-dev/passgen/issues"
+    "url": "https://github.com/retiform-labs/passgen/issues"
   },
-  "homepage": "https://github.com/sagelabs-dev/passgen#readme",
+  "homepage": "https://github.com/retiform-labs/passgen#readme",
   "devDependencies": {
     "@eslint/js": "^10.0.1",
     "eslint": "^10.9.0",
