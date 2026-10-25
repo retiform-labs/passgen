@@ -1,6 +1,6 @@
 {
   "name": "@retiform/passgen",
-  "version": "0.3.1",
+  "version": "0.3.2",
   "description": "Stateless deterministic passphrase generator",
   "main": "passgen.js",
   "bin": {
