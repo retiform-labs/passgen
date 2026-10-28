@@ -7,6 +7,11 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+### Changed
+- Migrate from the deprecated `@sagelabs/mcp-ai` to `@retiform/mcp-ai@^1.9.1`.
+  The `simple-server` API is unchanged, so only the scope moves. Installers
+  stop receiving a deprecation warning for a package we no longer use.
+
 ### Security notes
 - The npm author field for published versions **0.1.0–0.3.0** reads
   "Freeman King & Guan". npm version metadata is **immutable** — those

@@ -1,6 +1,6 @@
 {
   "name": "@retiform/passgen",
-  "version": "0.3.3",
+  "version": "0.3.4",
   "description": "Stateless deterministic passphrase generator",
   "main": "passgen.js",
   "bin": {
@@ -29,7 +29,7 @@
     "node": ">=20.0.0"
   },
   "dependencies": {
-    "@sagelabs/mcp-ai": "^1.6.9-guan.0",
+    "@retiform/mcp-ai": "^1.9.1",
     "zod": "^3.22.0"
   },
   "files": [
