@@ -5,7 +5,7 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
-## [Unreleased]
+## [0.3.4] - 2026-10-28
 
 ### Changed
 - Migrate from the deprecated `@sagelabs/mcp-ai` to `@retiform/mcp-ai@^1.9.1`.
@@ -19,6 +19,16 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
   is the project's legal identity ("David Newman & Guan").
 - Publishing convention: all public/packaging metadata uses the project's
   legal author identity, never an internal or pen name.
+
+## [0.3.5] - 2026-10-28
+
+### Fixed
+- README install instructions named the **unscoped** `passgen`, which resolves
+  on npm to an unrelated package by a different author. Both the global and
+  local install lines now name `@retiform/passgen`.
+  Correcting the repo alone would not have fixed this: npm serves its own
+  frozen copy of the README, so the 0.3.4 registry page still shows the wrong
+  command. A patch release is the only way to replace it.
 
 ## [0.3.1] - 2026-08-22
 

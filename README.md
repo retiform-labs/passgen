@@ -48,9 +48,9 @@ Passgen was originally developed as a standalone passphrase generation tool. Thi
 ### Install
 
 ```bash
-npm install -g passgen
+npm install -g @retiform/passgen
 # or locally
-npm install passgen
+npm install @retiform/passgen
 ```
 
 ### Generate a password
